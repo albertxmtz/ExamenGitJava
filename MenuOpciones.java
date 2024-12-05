@@ -43,6 +43,7 @@ public class MenuOpciones {
                     System.out.print("Ingrese una frase: ");
                     String frase = scanner.nextLine();
                     String[] palabras = frase.split("\s+");
+                    System.out.println("La frase tiene " + palabras.length + " palabras.");
                     break;
                 case 4:
                     salir = true;
