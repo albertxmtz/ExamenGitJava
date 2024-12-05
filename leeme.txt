@@ -1,0 +1,9 @@
+echo "Este proyecto contiene un programa en Java con un menú de opciones:
+
+Funcionalidades:
+1. Concatenar dos palabras.
+2. Contar palabras en una frase.
+3. Contar ocurrencias de una letra en una frase.
+4. Salir del programa.
+
+Desarrollado como parte de un ejercicio práctico para aprender Git y GitHub." > leeme.txt
