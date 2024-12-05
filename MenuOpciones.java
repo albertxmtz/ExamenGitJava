@@ -19,10 +19,25 @@ public class MenuOpciones {
 
             switch (opcion) {
                 case 1:
+<<<<<<< Updated upstream
                     System.out.println("Funcionalidad no implementada aún.");
+=======
+                    System.out.print("Ingrese la primera palabra: ");
+                    String palabra1 = scanner.nextLine();
+                    System.out.print("Ingrese la segunda palabra: ");
+                    String palabra2 = scanner.nextLine();
+                    System.out.println("Resultado: " + palabra1 + palabra2); }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
                     break;
                 case 2:
-                    System.out.println("Funcionalidad no implementada aún.");
+                    System.out.print("Ingrese una frase: ");
+                    String frase = scanner.nextLine();
+                    System.out.print("Ingrese una letra: ");
+                    char letra = scanner.nextLine().charAt(0);
+
                     break;
                 case 3:
                     System.out.println("Funcionalidad no implementada aún.");
