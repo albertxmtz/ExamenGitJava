@@ -37,7 +37,7 @@ public class MenuOpciones {
                     String frase = scanner.nextLine();
                     System.out.print("Ingrese una letra: ");
                     char letra = scanner.nextLine().charAt(0);
-
+                    int contador = 0;
                     break;
                 case 3:
                     System.out.println("Funcionalidad no implementada aún.");
