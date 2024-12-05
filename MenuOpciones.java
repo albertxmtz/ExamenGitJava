@@ -44,7 +44,10 @@ public class MenuOpciones {
                     break;
                 case 4:
                     salir = true;
-                    break;
+                    System.out.print("¿Está seguro de que desea salir? (S/N): ");
+                    String respuesta = scanner.nextLine().trim().toUpperCase();
+                    return respuesta.equals("S");
+
                 default:
                     System.out.println("Opción no válida. Intente de nuevo.");
             }
