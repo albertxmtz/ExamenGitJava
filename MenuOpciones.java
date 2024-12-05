@@ -40,7 +40,9 @@ public class MenuOpciones {
                     int contador = 0;
                     break;
                 case 3:
-                    System.out.println("Funcionalidad no implementada aún.");
+                    System.out.print("Ingrese una frase: ");
+                    String frase = scanner.nextLine();
+                    String[] palabras = frase.split("\s+");
                     break;
                 case 4:
                     salir = true;
